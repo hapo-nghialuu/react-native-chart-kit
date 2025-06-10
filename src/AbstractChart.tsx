@@ -283,7 +283,7 @@ class AbstractChart<
       }
 
       const x =
-        (((width - paddingRight) / labels.length) * i +
+        (((width - paddingRight) / (labels.length - 1)) * i +
           paddingRight +
           horizontalOffset) *
         fac;
